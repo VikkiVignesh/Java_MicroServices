@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/ServiceRegistery/pom.xml" />
         <option value="$PROJECT_DIR$/ai-service/pom.xml" />
         <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Kafka_HandsOn/Kafka_Producer/pom.xml" />
+        <option value="$PROJECT_DIR$/Kafka_HandsOn/Kafka_Consumer/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />

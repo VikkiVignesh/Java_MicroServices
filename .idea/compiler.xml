@@ -7,16 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="api-gateway" />
         <module name="activityservice" />
+        <module name="Kafka_Consumer" />
         <module name="ServiceRegistery" />
-        <module name="ai-service" />
+        <module name="Kafka_Producer" />
         <module name="userservice" />
+        <module name="api-gateway" />
+        <module name="ai-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Kafka_Consumer" options="-parameters" />
+      <module name="Kafka_Producer" options="-parameters" />
       <module name="ServiceRegistery" options="-parameters" />
       <module name="activityservice" options="-parameters" />
       <module name="ai-service" options="-parameters" />
